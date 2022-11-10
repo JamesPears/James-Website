@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+#navbar{
+    background-color:rgb(255, 5, 159);
+    text-align: center;
+    font-size: 35px;
+    justify-content: space-evenly;
+}
+
+#navbar a{
+    color: rgb(53, 42, 29);
+    text-decoration: underline;
+}
+
+#navbar a:hover{
+    color: blue;
+}
+
+h1{
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    font-family:Kolker Brush;
+    font-size: 100px;
+}
+
+*{
+    box-sizing: border-box;
+    padding:10px;
+}
+
+.page1{
+    background-image: url(Trees.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.intro{
+    font-size: 31px;
+    text-align: center;
+    font-family: Alata;
+    color: rgb(207, 252, 8);
+    background-color: rgb(92, 91, 91, 0.473);
+}
+
+.page2{
+    background-image: url(Rocks.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2{
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    font-family:Kolker Brush;
+    font-size: 80px;
+}
+
+.page4{
+    background-color: rgba(0, 0, 255, 0.315);
+    background-image: url(Landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h4{
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    /* box-sizing: border-box;
+    padding: 1px; */
+    font-family:Kolker Brush;
+    font-size: 80px;
+}
+.pokelist{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(207, 252, 8);
+    background-color: rgba(92, 91, 91, 0.473);
+    font-family: Alata;
+}
+
+.page3{
+    background-image: url(Sea.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.info{
+    font-size: 20px;
+    text-align: center;
+    font-family: Alata;
+    color: rgb(207, 252, 8);
+    background-color: rgba(92, 91, 91, 0.473);
+}
+
+.poke_explain{
+    font-size: 20px;
+    text-align: center;
+    font-family: Alata;
+    color: rgb(207, 252, 8);
+    background-color: rgba(92, 91, 91, 0.473);
+}
+
+.interests{
+    font-size: 20px;
+    text-align: center;
+    font-family: Alata;
+    color: rgb(207, 252, 8);
+    background-color: rgba(92, 91, 91, 0.473);
+}
+
